@@ -429,6 +429,7 @@ section {
   display: grid;
   grid-template-columns: 1fr;
    padding-top: var(--spacing8x12);
+   color: white;
 }
 
 .mobile-nav nav {
@@ -526,6 +527,7 @@ body:has(#mobile-nav-toggle:checked) {
   margin-top: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateX(-3px);
+  
 }
 
 /* Show dropdown menu on hover */
@@ -533,6 +535,7 @@ body:has(#mobile-nav-toggle:checked) {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+ 
 }
 
 /* Dropdown menu items */

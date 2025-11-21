@@ -78,6 +78,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
   color: #F1F8FD;
+   font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   /* Try adjusting: line-height, letter-spacing, margin-bottom */
 }
 
@@ -102,6 +105,11 @@ section div+div {
   /* Add more mobile typography adjustments here */
 }
 
+.quote{
+  font-size: 50px;
+  font-style: italic;
+
+}
 /* ==========================================================================
    LINKS & BUTTONS - CUSTOMIZE INTERACTIVE ELEMENTS
    ========================================================================== */
@@ -165,6 +173,7 @@ header nav {
 
 header nav a {
   margin-left: 40px;
+  color: var(--white);
   /* Try adding: text-transform, font-weight, padding for button-style nav */
 }
 

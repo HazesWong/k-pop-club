@@ -30,6 +30,7 @@ Experiment with colors, typography, spacing, and component styles.
    ========================================================================== */
 
 body {
+  background-color: #0E1A37;
   color: var(--primary-80);
   /* font-family is set in framework.css but you can override it here if needed */
 }
@@ -37,13 +38,13 @@ body {
 /* Heading Styles - Customize sizes, colors, spacing */
 h1, h2, h3, h4, h5, h6 { 
   line-height: 1.1;
-  color: var(--primary-80);
+  color: #F1F8FD;
   /* Add your custom heading styles here */
 }
 
 h1 { 
   font-size: 90px;
-  font-family: "Alfa Slab One", serif;
+  font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -76,7 +77,7 @@ h6 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--primary-80);
+  color: #F1F8FD;
   /* Try adjusting: line-height, letter-spacing, margin-bottom */
 }
 
@@ -190,6 +191,12 @@ header nav a.active {
   color: var(--white);
   margin: 0; 
 
+}
+
+#hero-section{
+   font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #hero-image p {

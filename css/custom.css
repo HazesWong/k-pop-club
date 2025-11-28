@@ -53,16 +53,25 @@ h1 {
 
 h2 { 
   font-size: 42px;
+   font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 
 h3 { 
   font-size: 30px;
+   font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h4 { 
   font-size: 24px;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h5 { 
